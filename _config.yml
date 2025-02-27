@@ -1,42 +1,34 @@
-name: 肖航课题组  Xiao Research Group
-url: https://xiaohang007.github.io/
-
-exclude: [bibble, README.md, Makefile, screenshot.png]
-
-# colorize code snippets with the pygments module
-highlighter: pygments
-
-# The path structure for blog posts.
-permalink: /blog/:year/:month/:day/:title.html
-encoding: utf-8
-# Sections on the "people" page.
-roles:
-  - key: faculty
-    name: 教师 Faculty
-  - key: grad
-    name: 研究生 Graduate Students
-  - key: ugrad
-    name: 本科生 Undergraduate Students
-  - key: collab
-    name: 合作者 Collaborators
-
-
-# Number of news stories on the front page.
-front_page_news: 8
-
-# Base pathname for links.
-base: ''
-
-# make pages for the _projects folder
-collections:
-  projects:
-    output: true
-
-# Navigation bar links.
-navigation:
-  - title: 主页 Home
-    link: /
-  - title: 科研 Research
-    link: /research.html
-  - title: 论文 Publications
-    link: /publications.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a> | 
+        <a href="#interests">Interests</a> | 
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a short bio here...</p>
+    </section>
+    <section id="interests">
+        <h2>My Interests</h2>
+        <p>List your hobbies or passions...</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+    </section>
+    <footer>
+        <p>© 2023 Your Name</p>
+    </footer>
+</body>
+</html>
